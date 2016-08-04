@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
   })
 });
 
-app.listen(8010);
+app.listen({ path: '/default.sock' });
